@@ -1,6 +1,5 @@
 package br.com.orb.mapasimples;
 
-import android.app.ProgressDialog;
 import android.location.Location;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -19,7 +18,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private GoogleMap mapa;
     private MapLocationProvider locationProvider;
     private MarkerOptions positionMarker;
-    private ProgressDialog dialog;
     private float zoom = 12.0f;
     private boolean isShowingMarker = false;
 
